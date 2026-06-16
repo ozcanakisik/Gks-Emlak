@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600" role="img" aria-label="Sanayi arsası görsel yer tutucu">
+  <rect width="800" height="600" fill="#23272C"/>
+  <g stroke="rgba(255,255,255,0.06)" stroke-width="1">
+    <path d="M0 75H800M0 150H800M0 225H800M0 300H800M0 375H800M0 450H800M0 525H800"/>
+    <path d="M75 0V600M150 0V600M225 0V600M300 0V600M375 0V600M450 0V600M525 0V600M600 0V600M675 0V600M750 0V600"/>
+  </g>
+  <g fill="none" stroke="#E2231A" stroke-width="3" opacity="0.9">
+    <path d="M140 440L400 360l260 80"/>
+    <path d="M140 440V300l260-80 260 80v140"/>
+    <path d="M260 410v-90M400 380v-90M540 410v-90"/>
+  </g>
+  <circle cx="400" cy="220" r="34" fill="none" stroke="#E2231A" stroke-width="3" opacity="0.7"/>
+  <text x="400" y="510" font-family="Archivo, sans-serif" font-size="26" font-weight="800" fill="rgba(255,255,255,0.55)" text-anchor="middle">GÖKSEL EMLAK OTOMOTİV</text>
+  <text x="400" y="542" font-family="sans-serif" font-size="15" fill="rgba(255,255,255,0.35)" text-anchor="middle">Görsel yakında eklenecek</text>
+</svg>

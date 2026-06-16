@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080" role="img" aria-label="Fabrika silüeti hero görsel yer tutucu">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2C3137"/>
+      <stop offset="0.55" stop-color="#1A1D21"/>
+      <stop offset="1" stop-color="#101317"/>
+    </linearGradient>
+    <radialGradient id="sun" cx="0.7" cy="0.4" r="0.5">
+      <stop offset="0" stop-color="#E2231A" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#E2231A" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1920" height="1080" fill="url(#sky)"/>
+  <rect width="1920" height="1080" fill="url(#sun)"/>
+  <g fill="#0c0e11" opacity="0.95">
+    <rect x="0" y="760" width="1920" height="320"/>
+    <rect x="120" y="560" width="260" height="200"/>
+    <rect x="380" y="620" width="180" height="140"/>
+    <path d="M560 760V600l120-60v220z"/>
+    <rect x="700" y="500" width="300" height="260"/>
+    <rect x="760" y="430" width="40" height="70"/>
+    <rect x="900" y="400" width="36" height="100"/>
+    <rect x="1020" y="620" width="220" height="140"/>
+    <path d="M1240 760V560h220l60 60v140z"/>
+    <rect x="1560" y="540" width="240" height="220"/>
+    <rect x="1620" y="460" width="34" height="80"/>
+  </g>
+  <g fill="#E2231A" opacity="0.85">
+    <rect x="180" y="600" width="20" height="20"/>
+    <rect x="240" y="600" width="20" height="20"/>
+    <rect x="760" y="540" width="22" height="22"/>
+    <rect x="820" y="540" width="22" height="22"/>
+    <rect x="880" y="540" width="22" height="22"/>
+    <rect x="1300" y="600" width="22" height="22"/>
+    <rect x="1620" y="580" width="22" height="22"/>
+  </g>
+</svg>

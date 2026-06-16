@@ -1,0 +1,68 @@
+@import "tailwindcss";
+
+@theme inline {
+  /* Marka paleti — Endüstriyel Güven + Modern */
+  --color-brand: #e2231a; /* TODO: net hex logodan teyit edilecek */
+  --color-brand-dark: #b51812;
+  --color-ink: #1a1d21; /* antrasit */
+  --color-steel: #2c3137; /* çelik grisi */
+  --color-steel-light: #5b626b;
+  --color-bone: #f4f5f6;
+
+  --font-display: var(--font-archivo), ui-sans-serif, system-ui, sans-serif;
+  --font-sans: var(--font-hanken), ui-sans-serif, system-ui, sans-serif;
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #1a1d21;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, .font-display {
+  font-family: var(--font-display);
+  letter-spacing: -0.02em;
+}
+
+/* Blueprint ince çizgi motifi (arka plan) */
+.blueprint-grid {
+  background-image:
+    linear-gradient(to right, rgba(255, 255, 255, 0.06) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.06) 1px, transparent 1px);
+  background-size: 44px 44px;
+}
+
+.blueprint-grid-dark {
+  background-image:
+    linear-gradient(to right, rgba(26, 29, 33, 0.06) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(26, 29, 33, 0.06) 1px, transparent 1px);
+  background-size: 44px 44px;
+}
+
+/* Leaflet harita yüksekliği güvencesi */
+.leaflet-container {
+  font-family: var(--font-sans);
+  background: #e8eaed;
+}
+
+/* prefers-reduced-motion: animasyonları sustur */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}

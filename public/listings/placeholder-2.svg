@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600" role="img" aria-label="Depo / fabrika deposu görsel yer tutucu">
+  <rect width="800" height="600" fill="#1A1D21"/>
+  <g stroke="rgba(255,255,255,0.06)" stroke-width="1">
+    <path d="M0 60H800M0 120H800M0 180H800M0 240H800M0 300H800M0 360H800M0 420H800M0 480H800M0 540H800"/>
+    <path d="M60 0V600M120 0V600M180 0V600M240 0V600M300 0V600M360 0V600M420 0V600M480 0V600M540 0V600M600 0V600M660 0V600M720 0V600"/>
+  </g>
+  <g fill="none" stroke="#E2231A" stroke-width="3" opacity="0.9">
+    <path d="M120 440V300h560v140"/>
+    <path d="M120 300l60-50h440l60 50"/>
+    <path d="M200 440V340h120v100M380 440V340h120v100"/>
+    <path d="M120 360h560"/>
+  </g>
+  <text x="400" y="510" font-family="Archivo, sans-serif" font-size="26" font-weight="800" fill="rgba(255,255,255,0.55)" text-anchor="middle">GÖKSEL EMLAK OTOMOTİV</text>
+  <text x="400" y="542" font-family="sans-serif" font-size="15" fill="rgba(255,255,255,0.35)" text-anchor="middle">Görsel yakında eklenecek</text>
+</svg>
